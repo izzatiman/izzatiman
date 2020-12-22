@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Payment</title>
+</head>
+<style>
+    table, th, td {
+  border: 4px solid black;
+  border-collapse: collapse;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<body style="background-color: white;">
+<center>
+<form action="Succes.html">
+	<h1 style="background-color:grey; color:white; font-family: Arial, Helvetica, sans-serif; text-align: center;">
+    CONFIRMATION PAYMENT</h1>
+	<tr>
+      <td width="100px"><p style="text-align:center ; color : black">BD SKATE CO. - God Series Artemis<br><br>
+      <img src="https://cdn.shopify.com/s/files/1/0065/5163/3977/products/IMG_0043_220x.jpg?v=1606448592" width="150px"></p>
+
+      <p style="text-align:center ; color:black"><br>Made in Collaboration with the Pasca Sini band. <br>
+      SIZE : 8.25"<br>PRICE : RM 249.00<br><br>
+      </p>
+      </td>
+    </tr>
+	<hr>
+	PERSONAL INFORMATION
+	<br>
+	<table border="1">
+	<tr>
+	<td>First Name:</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>Last Name:</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>Telephone / Mobile:</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>Gender:</td>
+	<td><input type="radio" name="g" value="Male">Male
+	<input type="radio" name="g" value="Female">Female</td>
+	</tr>
+	<tr>
+	<td>Address:</td>
+	<td><textarea name="address" rows="4" cols="25"></textarea></td>
+	</tr>
+	<tr>
+	<td>Postcode:</td>
+	<td><input type="number"></td>
+	</tr>
+	<tr>
+	<td>Quantity:</td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>Size:</td>
+	<td><select>
+	<option>---SELECT SIZE</option>
+	<option>8.00"</option>
+	<option>8.25"</option>
+	</select>
+	</td>
+	</tr>
+	</table>
+	<br>
+    <input type="checkbox" name="con" value="con">
+    <label for="con">I Agree With The Payment</label>
+	<p><input type="submit" value="Submit">
+	<input type="reset" value="Reset"></p>
+	</form>
+	<button onclick="goBack()">CANCEL</button>
+	</center>
+	
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</body>
+</html>
